@@ -8,8 +8,24 @@ if 条件
     语句
 其他
 ```
-- List
-- Math常用函数
+## List
+示例：
+```
+list2 = [1, 2, 3, 4, 5 ]
+list3 = ["a", "b", "c", "d","e","f"]
+list2[2]  # 2
+list3[2:4]  # ["c", "d"] 
+list3[1:-2]  # ["b", "c", "d","e"]
+list3[1:]  # ["b", "c", "d","e","f"]
+```
+要点：
+1. 正向下标是0基，反向下标是-1基
+![image](https://www.runoob.com/wp-content/uploads/2014/05/negative-indexes.png)
+![image](https://www.runoob.com/wp-content/uploads/2014/05/positive-indexes-1.png)
+
+2. 截取前闭后开
+
+## Math常用函数
 > 小写m
 ```
     math.fabs(x)  #绝对值
