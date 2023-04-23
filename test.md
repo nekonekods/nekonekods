@@ -8,6 +8,7 @@ if 条件
     语句
 其他
 ```
+- List
 - Math常用函数
 > 小写m
 ```
@@ -15,15 +16,14 @@ if 条件
     math.ceil(x)  #向上取整
     math.floor(x)  #向下取整
     math.sqrt(x)  #平方根
-    三角函数（反三角前加a）
-    math.exp(x)  #e的x次幂
     
+    三角函数（反三角前加a）
+    
+    math.exp(x)  #e的x次幂
     math.log(x[, base])
     #使用一个参数，返回 x 的自然对数（底为 e ）
     #使用两个参数，返回给定的 base 的对数 x ，计算为 log(x)/log(base)
-```
-- 运算符
-```
+    
     a**b  #a的b次幂
     
 ```
