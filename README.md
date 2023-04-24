@@ -3,7 +3,7 @@
 > 记得打空格
 ## 基础语句
 - 条件
-```
+```python
 if 条件
     语句
 elif 条件
@@ -12,7 +12,7 @@ elif 条件
 ```
 ## List
 示例：
-```
+```python
 list2 = [1, 2, 3, 4, 5 ]
 list3 = ["a", "b", "c", "d","e","f"]
 list2[2]  # 2
@@ -29,13 +29,13 @@ list3[1:]  # ["b", "c", "d","e","f"]
 
 ## Math常用函数
 > 小写m
-```
+```python
     math.fabs(x)  #绝对值
     math.ceil(x)  #向上取整
     math.floor(x)  #向下取整
     math.sqrt(x)  #平方根
     
-    三角函数（反三角前加a）
+    #三角函数（反三角前加a）
     
     math.exp(x)  #e的x次幂
     math.log(x[, base])
